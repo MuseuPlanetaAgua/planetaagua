@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 
 import { Container } from './styles';
-import Slide1 from '../../../../../../assets/img/1.png';
-import Slide2 from '../../../../../../assets/img/2.png';
+import Slide1 from '../../../../../../assets/img/1.jpg';
+import Slide2 from '../../../../../../assets/img/2.jpg';
 import Slide3 from '../../../../../../assets/img/3.jpeg';
-import Slide4 from '../../../../../../assets/img/4.png';
+import Slide4 from '../../../../../../assets/img/4.jpg';
 import Slide5 from '../../../../../../assets/img/5.jpg';
-import Slide6 from '../../../../../../assets/img/6.png';
+import Slide6 from '../../../../../../assets/img/6.jpg';
 import Slide7 from '../../../../../../assets/img/7.jpg';
-import Wave from '../../../../../../assets/img/slider-wave.png';
+import Wave from '../../../../../../assets/img/slider-wave.jpg';
 
 export default function Carousel() {
   const [handleSlider, setSlider] = useState(1);
