@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Container } from './styles';
-import BrasilFlag from '../../assets/img/brasil.png';
+import BrasilFlag from '../../assets/img/brasil.jp2';
 import EuaFlag from '../../assets/img/eua.png';
 
 export default function I18n() {
