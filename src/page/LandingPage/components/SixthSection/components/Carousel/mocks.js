@@ -1,15 +1,15 @@
 import React from 'react';
 
-import Slide1 from '../../../../../../assets/img/a-origem-da-agua.jpg';
-import Slide2 from '../../../../../../assets/img/A-LUA-E-A-ÁGUA.jpg';
-import Slide3 from '../../../../../../assets/img/O-MUNDO-DA-ÁGUA.jpg';
-import Slide4 from '../../../../../../assets/img/agua-eh-vida.jpg';
-import Slide5 from '../../../../../../assets/img/agua-eh-morte.jpg';
-import Slide6 from '../../../../../../assets/img/agua-eh-preciosa.jpg';
-import Slide7 from '../../../../../../assets/img/CONSUMO.jpg';
-import Slide8 from '../../../../../../assets/img/agua-eh-prazer.jpg';
-import Slide9 from '../../../../../../assets/img/agua-eh-tecnologia-desenvolvimeto.jpg';
-import Slide10 from '../../../../../../assets/img/agua-eh-energia.jpg';
+import Slide1 from '../../../../../../assets/img/a-origem-da-agua.webp';
+import Slide2 from '../../../../../../assets/img/A-LUA-E-A-ÁGUA.webp';
+import Slide3 from '../../../../../../assets/img/O-MUNDO-DA-ÁGUA.webp';
+import Slide4 from '../../../../../../assets/img/agua-eh-vida.webp';
+import Slide5 from '../../../../../../assets/img/agua-eh-morte.webp';
+import Slide6 from '../../../../../../assets/img/agua-eh-preciosa.webp';
+import Slide7 from '../../../../../../assets/img/CONSUMO.webp';
+import Slide8 from '../../../../../../assets/img/agua-eh-prazer.webp';
+import Slide9 from '../../../../../../assets/img/agua-eh-tecnologia-desenvolvimeto.webp';
+import Slide10 from '../../../../../../assets/img/agua-eh-energia.webp';
 
 export const CarouselImage = [
   {

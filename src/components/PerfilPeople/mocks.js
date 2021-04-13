@@ -1,16 +1,16 @@
 import React from 'react';
 
 import Translator from '../../components/i18n/translator';
-import Aurelio from '../../assets/img/aurelio.jpeg';
-import Ericson from '../../assets/img/ericson.jpeg';
-import MariaCeleste from '../../assets/img/maria-celeste.jpeg';
-import Zaira from '../../assets/img/zaira.jpeg';
-import Wil from '../../assets/img/Wil Caravanti.png';
-import Flavio from '../../assets/img/Flávio Dantas.jpeg';
-import Leon from '../../assets/img/Leon-Cezar.jpg';
-import Karina from '../../assets/img/Karina-muniz.jpg';
-import LuisAlves from '../../assets/img/Luis-Costa.jpeg';
-import Kristhyan from '../../assets/img/Kristhyan.jpeg';
+import Aurelio from '../../assets/img/aurelio.webp';
+import Ericson from '../../assets/img/ericson.webp';
+import MariaCeleste from '../../assets/img/maria-celeste.webp';
+import Zaira from '../../assets/img/zaira.webp';
+import Wil from '../../assets/img/Wil Caravanti.webp';
+import Flavio from '../../assets/img/Flávio Dantas.webp';
+import Leon from '../../assets/img/Leon-Cezar.webp';
+import Karina from '../../assets/img/Karina-muniz.webp';
+import LuisAlves from '../../assets/img/Luis-Costa.webp';
+import Kristhyan from '../../assets/img/Kristhyan.webp';
 
 export const profile = [
   {

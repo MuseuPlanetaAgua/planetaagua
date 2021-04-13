@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 
 import { Container } from './styles';
-import Slide1 from '../../../../../../assets/img/1.jpg';
-import Slide2 from '../../../../../../assets/img/2.jpg';
-import Slide3 from '../../../../../../assets/img/3.jpeg';
-import Slide4 from '../../../../../../assets/img/4.jpg';
-import Slide5 from '../../../../../../assets/img/5.jpg';
-import Slide6 from '../../../../../../assets/img/6.jpg';
-import Slide7 from '../../../../../../assets/img/7.jpg';
+import Slide1 from '../../../../../../assets/img/1.webp';
+import Slide2 from '../../../../../../assets/img/2.webp';
+import Slide3 from '../../../../../../assets/img/3.webp';
+import Slide4 from '../../../../../../assets/img/4.webp';
+import Slide5 from '../../../../../../assets/img/5.webp';
+import Slide6 from '../../../../../../assets/img/6.webp';
+import Slide7 from '../../../../../../assets/img/7.webp';
 import Wave from '../../../../../../assets/img/slider-wave.png';
 
 export default function Carousel() {
