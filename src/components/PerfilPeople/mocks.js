@@ -9,7 +9,7 @@ import Wil from '../../assets/img/Wil Caravanti.png';
 import Flavio from '../../assets/img/Flávio Dantas.jpeg';
 import Leon from '../../assets/img/Leon-Cezar.jpg';
 import Karina from '../../assets/img/Karina-muniz.jpg';
-import LuisAlves from '../../assets/img/Luis-Costa.jpg';
+import LuisAlves from '../../assets/img/Luis-Costa.jpeg';
 import Kristhyan from '../../assets/img/Kristhyan.jpeg';
 
 export const profile = [
