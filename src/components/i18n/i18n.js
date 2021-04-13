@@ -9,7 +9,6 @@ export default function I18n() {
 
   function handleChangeLanguage(language) {
     i18n.changeLanguage(language);
-    s;
   }
 
   const changeByUrl = () => {
