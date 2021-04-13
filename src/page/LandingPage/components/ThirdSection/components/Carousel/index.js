@@ -8,7 +8,7 @@ import Slide4 from '../../../../../../assets/img/4.jpg';
 import Slide5 from '../../../../../../assets/img/5.jpg';
 import Slide6 from '../../../../../../assets/img/6.jpg';
 import Slide7 from '../../../../../../assets/img/7.jpg';
-import Wave from '../../../../../../assets/img/slider-wave.jpg';
+import Wave from '../../../../../../assets/img/slider-wave.png';
 
 export default function Carousel() {
   const [handleSlider, setSlider] = useState(1);
