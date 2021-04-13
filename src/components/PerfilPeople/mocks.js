@@ -5,7 +5,7 @@ import Aurelio from '../../assets/img/aurelio.webp';
 import Ericson from '../../assets/img/ericson.webp';
 import MariaCeleste from '../../assets/img/maria-celeste.webp';
 import Zaira from '../../assets/img/zaira.webp';
-import Wil from '../../assets/img/Wil Caravanti.webp';
+import Wil from '../../assets/img/Wil-Caravanti.webp';
 import Flavio from '../../assets/img/Flávio Dantas.webp';
 import Leon from '../../assets/img/Leon-Cezar.webp';
 import Karina from '../../assets/img/Karina-muniz.webp';
