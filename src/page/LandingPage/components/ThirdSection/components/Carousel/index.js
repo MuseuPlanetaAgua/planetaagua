@@ -5,7 +5,7 @@ import Slide1 from '../../../../../../assets/img/1.jpf';
 import Slide2 from '../../../../../../assets/img/2.jpf';
 import Slide3 from '../../../../../../assets/img/3.jpf';
 import Slide4 from '../../../../../../assets/img/4.jpf';
-import Slide5 from '../../../../../../assets/img/5.jpg';
+import Slide5 from '../../../../../../assets/img/5.jpf';
 import Slide6 from '../../../../../../assets/img/6.jpf';
 import Slide7 from '../../../../../../assets/img/7.jpf';
 import Wave from '../../../../../../assets/img/slider-wave.jpf';
