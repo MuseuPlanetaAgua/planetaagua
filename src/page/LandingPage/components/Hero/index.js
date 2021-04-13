@@ -1,7 +1,5 @@
 import React from 'react';
 
-import HeroVideo from '../../../../assets/video/GLOBO-DESKTOP.m4v';
-
 import { ReactComponent as LogoPlaneta } from '../../../../assets/svg/logo-cultura.svg';
 import { Container } from './styles';
 
@@ -13,7 +11,7 @@ export default function Hero() {
         loop
         autoPlay
         muted
-        src={HeroVideo}
+        src="https://youtu.be/BzTExrVVreE"
         id="videoHero"
         type="video/mp4"
       />
