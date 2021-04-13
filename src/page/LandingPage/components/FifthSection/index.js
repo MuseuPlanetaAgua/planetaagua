@@ -1,6 +1,6 @@
 import React from 'react';
 
-import PublicVideo from '../../../../assets/video/PUBLICO-DESKTOP.mp4';
+import PublicVideo from '../../../../assets/video/PUBLICO-DESKTOP.m4v';
 
 import { Container } from './styles';
 import Translator from '../../../../components/i18n/translator';

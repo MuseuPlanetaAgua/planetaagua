@@ -1,6 +1,6 @@
 import React from 'react';
 
-import StraubVideo from '../../../../assets/video/Museu Planeta Água _ Straub Design.mp4';
+import StraubVideo from '../../../../assets/video/Museu Planeta Água _ Straub Design.m4v';
 
 import { Container } from './styles';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SecondSectionVideo from '../../../../assets/video/PEIXINHOS-DESKTOP.mp4';
+import SecondSectionVideo from '../../../../assets/video/PEIXINHOS-DESKTOP.m4v';
 
 import { Container } from './styles';
 import Translator from '../../../../components/i18n/translator';
