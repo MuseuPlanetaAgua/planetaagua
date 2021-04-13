@@ -1,8 +1,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Container } from './styles';
-import BrasilFlag from '../../assets/img/brasil.png';
-import EuaFlag from '../../assets/img/eua.png';
+import BrasilFlag from '../../assets/img/brasil.jpf';
+import EuaFlag from '../../assets/img/eua.jpf';
 
 export default function I18n() {
   const { i18n } = useTranslation();
