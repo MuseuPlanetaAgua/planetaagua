@@ -180,20 +180,6 @@ export const Container = styled.section`
         margin-top: 10px;
         text-transform: uppercase;
       }
-
-      p {
-        font-size: 16px;
-        color: #707070;
-        font-family: 'DIN-Regular';
-      }
-    }
-
-    .show-about-me {
-      width: 100%;
-      height: 0px;
-      overflow: hidden;
-      opacity: 0;
-      transition: 0.3s;
     }
   }
 `;

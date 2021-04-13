@@ -133,12 +133,6 @@ export const Container = styled.section`
         margin: 20px 0;
         text-transform: uppercase;
       }
-
-      p {
-        font-size: 16px;
-        color: #707070;
-        font-family: 'DIN-Regular';
-      }
     }
   }
 `;

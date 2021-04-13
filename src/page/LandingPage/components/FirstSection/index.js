@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Copel3D from '../../../../assets/img/3DCopel.png';
+import Copel3D from '../../../../assets/img/3DCopel.jpf';
 import Copel3DFront from '../../../../assets/img/3DCopelFront.png';
 
 import { Container } from './styles';

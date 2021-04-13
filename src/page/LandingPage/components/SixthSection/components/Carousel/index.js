@@ -7,7 +7,6 @@ import Translator from '../../../../../../components/i18n/translator';
 
 export default function Carousel() {
   const [handleSlider, setSlider] = useState(1);
-  // const [SliderStatus, setSliderStatus] = useState(true);
 
   const showDescription = () => {
     switch (handleSlider) {
