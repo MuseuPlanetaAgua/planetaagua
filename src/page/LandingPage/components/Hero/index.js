@@ -9,13 +9,14 @@ export default function Hero() {
   return (
     <Container>
       <LogoPlaneta alt="logo-cultura" className="middle-logo-cultura" />
+
       <video
         loop
         autoPlay
         muted
         src={HeroVideo}
         id="videoHero"
-        type="video/mp4"
+        type="video/m4v"
       />
     </Container>
   );
