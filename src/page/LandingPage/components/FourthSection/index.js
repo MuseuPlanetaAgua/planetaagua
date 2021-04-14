@@ -1,6 +1,6 @@
 import React from 'react';
 
-import StraubVideo from '../../../../assets/video/Museu Planeta Água _ Straub Design.webm';
+import StraubVideo from '../../../../assets/video/Museu Planeta Água _ Straub Design.mv4';
 
 import { Container } from './styles';
 
@@ -11,7 +11,7 @@ export default function FirstSection() {
         controls
         mute
         src={StraubVideo}
-        type="video/webm"
+        type="video/mv4"
         data-aos="zoom-in"
       />
     </Container>
