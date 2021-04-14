@@ -1,6 +1,6 @@
 import React from 'react';
 
-import PublicVideo from '../../../../assets/video/PUBLICO-DESKTOP.webm';
+import PublicVideo from '../../../../assets/video/PUBLICO-DESKTOP.m4v';
 
 import { Container } from './styles';
 import Translator from '../../../../components/i18n/translator';
@@ -32,7 +32,7 @@ export default function FifthSection() {
         </div>
       </div>
       <div className="right-side">
-        <video loop autoPlay muted src={PublicVideo} type="video/webm" />
+        <video loop autoPlay muted src={PublicVideo} type="video/mp4" />
       </div>
     </Container>
   );
