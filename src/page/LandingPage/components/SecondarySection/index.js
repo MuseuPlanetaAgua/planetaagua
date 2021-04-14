@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SecondSectionVideo from '../../../../assets/video/PEIXINHOS-DESKTOP.m4v';
+import SecondSectionVideo from '../../../../assets/video/PEIXINHOS-DESKTOP.webm';
 
 import { Container } from './styles';
 import Translator from '../../../../components/i18n/translator';
@@ -23,7 +23,7 @@ export default function SecondarySection() {
         autoPlay
         muted
         src={SecondSectionVideo}
-        type="video/mp4"
+        type="video/webm"
         className="background-animation"
       />
     </Container>
