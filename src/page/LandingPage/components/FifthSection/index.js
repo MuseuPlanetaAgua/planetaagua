@@ -32,7 +32,7 @@ export default function FifthSection() {
         </div>
       </div>
       <div className="right-side">
-        <video loop autoPlay muted src={PublicVideo} type="video/webmp" />
+        <video loop autoPlay muted src={PublicVideo} type="video/webm" />
       </div>
     </Container>
   );
