@@ -1,15 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-import { DIN } from './Fonts';
-
 export default createGlobalStyle`
-${DIN};
-
-@font-face {
-  font-family: 'DIN';
-
-  src: local('DIN-Black'), url(../assets/font/DIN-Black.ttf) format('ttf');
-}
 
     * {
         margin: 0;
