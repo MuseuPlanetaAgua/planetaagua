@@ -1,8 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Container } from './styles';
-import BrasilFlag from '../../assets/img/brasil.webp';
-import EuaFlag from '../../assets/img/eua.webp';
 
 export default function I18n() {
   const { i18n } = useTranslation();
@@ -28,14 +26,14 @@ export default function I18n() {
         isSelected={selectedLanguage === 'pt-BR'}
         onClick={() => handleChangeLanguage('pt-BR')}
       >
-        <img src={BrasilFlag} alt="brasil flag" />
+        PORT
       </button>
 
       <button
         isSelected={selectedLanguage === 'en-US'}
         onClick={() => handleChangeLanguage('en-US')}
       >
-        <img src={EuaFlag} alt="brasil flag" />
+        ENG
       </button>
     </Container>
   );

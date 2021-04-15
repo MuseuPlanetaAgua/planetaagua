@@ -5,10 +5,9 @@ export const Container = styled.div`
     width: 35px;
     height: 10px;
     background: none;
-    border: 0;
-
-    img {
-      height: 100%;
-    }
+    border: 1px solid white;
+    font-weight: 600;
+    font-family: 'DIN-Bold';
+    text-align: center;
   }
 `;
