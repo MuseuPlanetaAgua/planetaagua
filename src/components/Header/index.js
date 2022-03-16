@@ -46,7 +46,7 @@ export default function Header() {
       </button>
       <nav>
         <LogoPlaneta className="logo-mobile" />
-        <Buttons />
+        <Buttons menuColor={menuColor} />
         <ul>
           {MenuItems.map((item) => (
             <li key={item.id}>
