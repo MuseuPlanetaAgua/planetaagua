@@ -12,7 +12,7 @@ export const Container = styled.section`
       transform: translateX(-50%);
     }
   }
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1400px) {
     video {
       width: 110vw;
       height: unset !important;
