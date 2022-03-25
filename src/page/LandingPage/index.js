@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef, useState, useLayoutEffect } from 'react';
 
 import { MainContainer, Container } from './styles';
 import { ReactComponent as TopWave } from '../../assets/svg/top-wave-animation.svg';
@@ -18,19 +18,37 @@ import { FaInstagram } from 'react-icons/fa';
 import Translator from '../../components/i18n/translator';
 
 export default function Home() {
+  const [sectionsPosition, setSectionsPosition] = useState({});
+
+  const thirdSectionRef = useRef(null);
+  const fithSectionRef = useRef(null);
+  const sixthSectionRef = useRef(null);
+
+  useLayoutEffect(() => {
+    if (!!thirdSectionRef || !!sixthSectionRef || !!fithSectionRef) {
+      const getPositions = {
+        thrdSection: thirdSectionRef?.current?.offsetTop,
+        fithSectionRef: fithSectionRef?.current?.offsetTop,
+        sixthSection: sixthSectionRef?.current?.offsetTop,
+      };
+
+      setSectionsPosition(getPositions);
+    }
+  }, [thirdSectionRef, fithSectionRef, sixthSectionRef]);
+
   return (
     <MainContainer>
-      <Header />
+      <Header sectionPositions={sectionsPosition} />
       <div className="test2" />
       <Hero />
       <FirstSection />
       <SecondarySection />
-      <Container>
+      <Container ref={thirdSectionRef}>
         <ThirdSection />
       </Container>
       <FourthSection />
-      <FifthSection />
-      <SixthSection />
+      <FifthSection ref={fithSectionRef} />
+      <SixthSection ref={sixthSectionRef} />
       <div className="division-animation">
         <TopWave />
         <MiddleWave />

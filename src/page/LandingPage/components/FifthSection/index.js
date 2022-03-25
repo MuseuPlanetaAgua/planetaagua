@@ -1,17 +1,15 @@
-import React from 'react';
-
 import PublicVideo from '../../../../assets/video/PUBLICO-DESKTOP.m4v';
+import React, { forwardRef } from 'react';
 
 import { Container } from './styles';
 import Translator from '../../../../components/i18n/translator';
 
-export default function FifthSection() {
+const FifthSection = (props, ref) => {
   return (
-    <Container id="publico">
+    <Container id="publico" {...props} ref={ref}>
       <div className="main-info" data-aos="fade-up-right">
         <div className="left-side">
           <h1>
-            {' '}
             <Translator path="FithSection.title" />
           </h1>
 
@@ -36,4 +34,6 @@ export default function FifthSection() {
       </div>
     </Container>
   );
-}
+};
+
+export default forwardRef(FifthSection);

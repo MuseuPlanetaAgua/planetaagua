@@ -5,9 +5,9 @@ import { Container } from './styles';
 import Carousel from './components/Carousel';
 import Translator from '../../../../components/i18n/translator';
 
-export default function SixthSection() {
+function SixthSection(props, ref) {
   return (
-    <Container id="temas">
+    <Container id="temas" ref={ref} {...props}>
       <h1 className="section-title" data-aos="fade-up-right">
         <Translator path="SixthSection.title" />
       </h1>
@@ -17,3 +17,5 @@ export default function SixthSection() {
     </Container>
   );
 }
+
+export default React.forwardRef(SixthSection);
